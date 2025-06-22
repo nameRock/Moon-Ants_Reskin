@@ -1,0 +1,169 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: ItalianlData
+  m_EditorClassIdentifier: 
+  _language: 8
+  _icon: {fileID: 21300000, guid: 305be0ec96da6459cae821ac38f9e567, type: 3}
+  _font: {fileID: 11400000, guid: 4db3d0c259b3711418b787258e9c77c5, type: 2}
+  Assistants:
+    _iD: 0
+    _translation: Aiutanti
+  AssistantsStrength:
+    _iD: 1
+    _translation: Forza
+  AssistantsSpeed:
+    _iD: 2
+    _translation: Velocita
+  AssistantsWorkers:
+    _iD: 3
+    _translation: lavoratori
+  Player:
+    _iD: 4
+    _translation: Giocatore
+  PlayerUpgrade:
+    _iD: 5
+    _translation: Migliorare
+  PlayerCapacity:
+    _iD: 6
+    _translation: Capienza
+  PlayerSpeed:
+    _iD: 7
+    _translation: Velocita
+  PlayerPrice:
+    _iD: 8
+    _translation: Reddito
+  Leaderboard:
+    _iD: 9
+    _translation: 
+  EnemyDanger:
+    _iD: 10
+    _translation: Pericolo
+  Level:
+    _iD: 11
+    _translation: Livello
+  InviteFrieds:
+    _iD: 12
+    _translation: 
+  YouWin:
+    _iD: 14
+    _translation: Vittoria!
+  Next:
+    _iD: 13
+    _translation: Ulteriore
+  Go:
+    _iD: 40
+    _translation: Andare
+  Apply:
+    _iD: 15
+    _translation: Ottenere
+  Select:
+    _iD: 16
+    _translation: Scegliere
+  AbilityDamage:
+    _iD: 17
+    _translation: Aumenta il danno
+  AbilityRevenue:
+    _iD: 18
+    _translation: Aumenta il reddito
+  AbilitySpeed:
+    _iD: 19
+    _translation: Aumentare velocita
+  AbilityStack:
+    _iD: 20
+    _translation: Aumentare la pila
+  RewardSpeed:
+    _iD: 21
+    _translation: Velocita
+  RewardIncome:
+    _iD: 22
+    _translation: Reddito
+  RewardAntCount:
+    _iD: 23
+    _translation: Formiche
+  NotInitialized:
+    _iD: 24
+    _translation: 
+  Danger:
+    _iD: 25
+    _translation: Pericolo
+  MaxStack:
+    _iD: 26
+    _translation: 'Massimo '
+  AuthorizedButton:
+    _iD: 27
+    _translation: 
+  StoryLevel1:
+    _iD: 28
+    _translation: Ciao! Io sono il re delle formiche.$Sono stanco della terra.$Costruiamo
+      un razzo e colonizziamo Marte!
+  StoryLevel2:
+    _iD: 29
+    _translation: Buon volo!$Mentre stavamo costruendo la base, un residente locale
+      ha bloccato il percorso del razzo.$Probabilmente ha fame. Diamo loro da mangiare!
+  StoryLevel3:
+    _iD: 30
+    _translation: Non siamo riusciti a volare via dagli affamati marziani.$La nave
+      era rotta! Ma ora abbiamo una nuova tecnologia.$Costruiamo un disco volante!
+  StoryLevel4:
+    _iD: 31
+    _translation: Oh! Atterrato su un pianeta acquatico.$Esploriamo le isole.$Abbiamo
+      bisogno di una nave!
+  StoryLevel5:
+    _iD: 32
+    _translation: La nave era troppo pesante.$Abbiamo bisogno di qualcosa di leggero.$Penso
+      che sia una papera di gomma per noi.
+  StoryLevel6:
+    _iD: 33
+    _translation: Abbiamo esplorato bene questo pianeta.$Costruiscimi una tazza e
+      vola su un altro pianeta.
+  StoryLevel7:
+    _iD: 34
+    _translation: Nuovo pianeta! Aspetto!$Qualcuno si nasconde in un razzo al riparo.$Costruiamo
+      un robot e abbattiamo il muro per conoscerci.
+  StoryLevel8:
+    _iD: 35
+    _translation: Non appena abbiamo rotto il muro e siamo andati nello spazio.$Una
+      tempesta di neve ha colpito improvvisamente il pianeta.$Fare un pupazzo di
+      neve!
+  StoryLevel9:
+    _iD: 36
+    _translation: Oh no! C'erano formiche in competizione nel razzo.$Hanno rubato
+      la principessa e l'hanno messa in una gabbia.$Liberala!
+  StoryLevel10:
+    _iD: 37
+    _translation: Il pianeta era abitato da ragni che mangiavano i nostri subordinati.$Siamo
+      di nuovo su Marte.$Costruisci un aereo per vedere il pianeta dall'alto.
+  StoryLevel11:
+    _iD: 38
+    _translation: Abbiamo trovato un lago di lava. Qui e dove vengono forgiate le
+      migliori armi.$Prendi l'acqua dal pupazzo di neve.$Ho bisogno di una spada!
+  StoryLevel12:
+    _iD: 39
+    _translation: Lago acido!$Testiamo la tecnologia che ci hanno dato i marziani
+      in cambio della spada.$Costruisci qualcosa!
+  StoryLevel13:
+    _iD: 41
+    _translation: E ancora la Terra!$Abbiamo fatto un viaggio spaziale intorno al
+      mondo!$Costruiamo una mongolfiera e voliamo intorno al pianeta!
+  AdBlockDetected:
+    _iD: 42
+    _translation: 
+  Reward:
+    _iD: 43
+    _translation: Ricompensa
+  YouReceive:
+    _iD: 44
+    _translation: Otterrai
+  See:
+    _iD: 45
+    _translation: Aspetto

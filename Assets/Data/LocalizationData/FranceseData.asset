@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: FranceseData
+  m_EditorClassIdentifier: 
+  _language: 6
+  _icon: {fileID: 21300000, guid: f697445a9b1fb473e937a4fec1fbdbd4, type: 3}
+  _font: {fileID: 11400000, guid: 4db3d0c259b3711418b787258e9c77c5, type: 2}
+  Assistants:
+    _iD: 0
+    _translation: Aides
+  AssistantsStrength:
+    _iD: 1
+    _translation: Force
+  AssistantsSpeed:
+    _iD: 2
+    _translation: Vitesse
+  AssistantsWorkers:
+    _iD: 3
+    _translation: Ouvriers
+  Player:
+    _iD: 4
+    _translation: Joueur
+  PlayerUpgrade:
+    _iD: 5
+    _translation: Perfectionner
+  PlayerCapacity:
+    _iD: 6
+    _translation: Volume
+  PlayerSpeed:
+    _iD: 7
+    _translation: Vitesse
+  PlayerPrice:
+    _iD: 8
+    _translation: Revenu
+  Leaderboard:
+    _iD: 9
+    _translation: 
+  EnemyDanger:
+    _iD: 10
+    _translation: Danger
+  Level:
+    _iD: 11
+    _translation: Niveau
+  InviteFrieds:
+    _iD: 12
+    _translation: 
+  YouWin:
+    _iD: 14
+    _translation: La victoire!
+  Next:
+    _iD: 13
+    _translation: Puis
+  Go:
+    _iD: 40
+    _translation: Aller
+  Apply:
+    _iD: 15
+    _translation: Obtenir
+  Select:
+    _iD: 16
+    _translation: Choisir
+  AbilityDamage:
+    _iD: 17
+    _translation: Augmenter l'attaque
+  AbilityRevenue:
+    _iD: 18
+    _translation: Augmente les revenus
+  AbilitySpeed:
+    _iD: 19
+    _translation: Augmente la vitesse
+  AbilityStack:
+    _iD: 20
+    _translation: Augmente la pile
+  RewardSpeed:
+    _iD: 21
+    _translation: Vitesse
+  RewardIncome:
+    _iD: 22
+    _translation: Revenu
+  RewardAntCount:
+    _iD: 23
+    _translation: Fourmis
+  NotInitialized:
+    _iD: 24
+    _translation: 
+  Danger:
+    _iD: 25
+    _translation: Danger
+  MaxStack:
+    _iD: 26
+    _translation: Max
+  AuthorizedButton:
+    _iD: 27
+    _translation: 
+  StoryLevel1:
+    _iD: 28
+    _translation: Bonjour! Je suis le roi des fourmis.$Il est temps de quitter la
+      Terre.$Construisons un vaisseau et colonisons Mars!
+  StoryLevel2:
+    _iD: 29
+    _translation: Cool vol!$Pendant que nous construisions la base, un habitant local
+      est venu.$Il a probablement faim. Nourrissons-le!
+  StoryLevel3:
+    _iD: 30
+    _translation: Nous n'avons pas pu voler.$Mais maintenant nous avons une nouvelle
+      technologie.$Construisons une soucoupe volante !
+  StoryLevel4:
+    _iD: 31
+    _translation: 'Ouah! A atterri dans une mer.$Explorons ce pays.$Nous avons besoin
+      d''un navire ! '
+  StoryLevel5:
+    _iD: 32
+    _translation: Le navire ne pouvait pas naviguer loin!$Il est trop lourd. Il nous
+      faut quelque chose de gonflable.$Je pense qu'un canard en caoutchouc fera l'affaire.
+  StoryLevel6:
+    _iD: 33
+    _translation: Nous avons fait beaucoup de recherches ici.$Construis-moi une tasse
+      et vole.
+  StoryLevel7:
+    _iD: 34
+    _translation: Regardez, quelqu'un se cache dans le vaisseau.$Construisons un
+      robot et brisons le mur.
+  StoryLevel8:
+    _iD: 35
+    _translation: Pendant que nous volions, soudain il y a eu un blizzard.$Fais-nous
+      un bonhomme de neige!
+  StoryLevel9:
+    _iD: 36
+    _translation: Oh non! Il y avait des fourmis rivales dans le navire.$Ils ont
+      pris la princesse et l'ont mise dans une cage.$Nous devons la sauver!
+  StoryLevel10:
+    _iD: 37
+    _translation: Des ennemis vivent ici qui nuisent aux ouvriers.$Nous sommes de
+      retour sur Mars.$Construisez un avion pour tout voir d'en haut.
+  StoryLevel11:
+    _iD: 38
+    _translation: Nous sommes dans un lac de lave.$Vous pouvez forger les meilleures
+      armes. Prenez de l'eau du bonhomme de neige.$J'ai besoin d'une lame!
+  StoryLevel12:
+    _iD: 39
+    _translation: Lac acide !$Testons la technologie que nous avons pour la lame.$Construisez
+      quelque chose!
+  StoryLevel13:
+    _iD: 41
+    _translation: Et encore la Terre!$Nous avons fait un tour du monde dans l'espace!$Construisons
+      une balle et volons autour de la surface!
+  AdBlockDetected:
+    _iD: 42
+    _translation: 
+  Reward:
+    _iD: 43
+    _translation: La prime
+  YouReceive:
+    _iD: 44
+    _translation: Tu auras
+  See:
+    _iD: 45
+    _translation: Regarder

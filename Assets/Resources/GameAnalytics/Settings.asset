@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f78192cec1344d83a177ac5e6139ab3, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  TotalMessagesSubmitted: 0
+  TotalMessagesFailed: 0
+  DesignMessagesSubmitted: 0
+  DesignMessagesFailed: 0
+  QualityMessagesSubmitted: 0
+  QualityMessagesFailed: 0
+  ErrorMessagesSubmitted: 0
+  ErrorMessagesFailed: 0
+  BusinessMessagesSubmitted: 0
+  BusinessMessagesFailed: 0
+  UserMessagesSubmitted: 0
+  UserMessagesFailed: 0
+  CustomArea: 
+  gameKey:
+  - 2f2b526b34630d82912fc824e5ffa67a
+  secretKey:
+  - e538e9dc1271963c8b02c9478099c635fa0ddd2b
+  Build:
+  - 0.1
+  SelectedPlatformOrganization:
+  - treeMount
+  SelectedPlatformStudio:
+  - tree
+  SelectedPlatformGame:
+  - Moon Ants Web
+  SelectedPlatformGameID: c9850300
+  SelectedOrganization: 01000000
+  SelectedStudio: 01000000
+  SelectedGame: 03000000
+  NewVersion: 
+  Changes: 
+  SignUpOpen: 0
+  StudioName: 
+  GameName: Moon Ants
+  OrganizationName: 
+  OrganizationIdentifier: 
+  EmailGA: tree3368@gmail.com
+  IntroScreen: 0
+  InfoLogEditor: 1
+  InfoLogBuild: 1
+  VerboseLogBuild: 0
+  UseManualSessionHandling: 0
+  SendExampleGameDataToMyGame: 0
+  InternetConnectivity: 0
+  CustomDimensions01:
+  - IncomeBonus-ad-offer
+  - IncomeBonus-ad-click
+  - CountBonus-ad-offer
+  - CountBonus-ad-click
+  - SpeedBonus-ad-offer
+  - SpeedBonus-ad-click
+  - BlueFlower-ad-offer
+  - BlueFlower-ad-click
+  - GreenFlower-ad-offer
+  - GreenFlower-ad-click
+  - RedFlower-ad-offer
+  - RedFlower-ad-click
+  - CountRewardBonus-ad-offer
+  - CountRewardBonus-ad-click
+  - DigRewardBonus-ad-offer
+  - DigRewardBonus-ad-click
+  - SpeedRewardBonus-ad-offer
+  - SpeedRewardBonus-ad-click
+  - EndLevelRewardAdOffer-ad-offer
+  - EndLevelRewardAdOffer-ad-click
+  CustomDimensions02: []
+  CustomDimensions03: []
+  ResourceItemTypes:
+  - Player
+  - Buy
+  - Upgrade
+  - Skins
+  - Reward
+  - Ant
+  - Mining
+  - Opening
+  - Zona
+  - BlueCristalReward
+  - GreenCristalReward
+  - RedCristalRewardEnd
+  - AntsSpeedReward
+  - IncomeReward
+  - AntsCountReward
+  - RedCristalRewardFlower
+  - UpgraderRewardCount
+  - UpgraderRewardSpeed
+  - UpgraderRewardDig
+  - crazygames
+  ResourceCurrencies:
+  - BlueCristal
+  - GreenCristal
+  - RedCristal
+  - ShowInter
+  - FailedShowInter
+  LastCreatedGamePlatform: 0
+  Platforms: 11000000
+  CurrentInspectorState: 1
+  ClosedHints: 
+  DisplayHints: 0
+  DisplayHintsScrollState: {x: 0, y: 0}
+  Logo: {fileID: 2800000, guid: 98df8f9c5678a4e5d964caa1244e8958, type: 3}
+  UpdateIcon: {fileID: 2800000, guid: 810bbb19deed24f3cb7b854f9bafde26, type: 3}
+  InfoIcon: {fileID: 2800000, guid: 1b4dd779aadd54ac88856975af0d3c0a, type: 3}
+  DeleteIcon: {fileID: 2800000, guid: 85a626f1668244d30a4e9f616991a793, type: 3}
+  GameIcon: {fileID: 2800000, guid: a9ac7103fc40b4e00923bf8c2cb5d30f, type: 3}
+  HomeIcon: {fileID: 2800000, guid: fe7e2ecc9b2fe447bafe90f6395d4709, type: 3}
+  InstrumentIcon: {fileID: 2800000, guid: 2ba470b4dffd848c6b267c34770cc63e, type: 3}
+  QuestionIcon: {fileID: 2800000, guid: f8ea67e311b0c4b2ea05718e90fd3b5b, type: 3}
+  UserIcon: {fileID: 2800000, guid: f49ef75333ff247cfb5dad4dab0d4dac, type: 3}
+  AmazonIcon: {fileID: 0}
+  GooglePlayIcon: {fileID: 0}
+  iosIcon: {fileID: 0}
+  macIcon: {fileID: 0}
+  windowsPhoneIcon: {fileID: 0}
+  UsePlayerSettingsBuildNumber: 0
+  SubmitErrors: 0
+  NativeErrorReporting: 0
+  MaxErrorCount: 10
+  SubmitFpsAverage: 0
+  SubmitFpsCritical: 0
+  IncludeGooglePlay: 1
+  FpsCriticalThreshold: 20
+  FpsCirticalSubmitInterval: 1
+  PlatformFoldOut: 01
+  CustomDimensions01FoldOut: 1
+  CustomDimensions02FoldOut: 1
+  CustomDimensions03FoldOut: 1
+  ResourceItemTypesFoldOut: 1
+  ResourceCurrenciesFoldOut: 1

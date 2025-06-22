@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: TurkishData
+  m_EditorClassIdentifier: 
+  _language: 3
+  _icon: {fileID: 21300000, guid: f96ed64c1140a44688663b65a678910a, type: 3}
+  Assistants:
+    _iD: 0
+    _translation: "Yard\u0131mc\u0131lar"
+  AssistantsStrength:
+    _iD: 1
+    _translation: Toplamak
+  AssistantsSpeed:
+    _iD: 2
+    _translation: "H\u0131z"
+  AssistantsWorkers:
+    _iD: 3
+    _translation: "Kar\u0131ncalar"
+  Player:
+    _iD: 4
+    _translation: Oyuncu
+  PlayerUpgrade:
+    _iD: 5
+    _translation: "Y\xFCkseltme"
+  PlayerCapacity:
+    _iD: 6
+    _translation: Kapasite
+  PlayerSpeed:
+    _iD: 7
+    _translation: "H\u0131z"
+  PlayerPrice:
+    _iD: 8
+    _translation: Fiyat
+  Leaderboard:
+    _iD: 9
+    _translation: Liderler
+  EnemyDanger:
+    _iD: 10
+    _translation: Tehlike
+  Level:
+    _iD: 11
+    _translation: Seviye
+  InviteFrieds:
+    _iD: 12
+    _translation: "Arkada\u015Flar\u0131n\u0131 Davet "
+  YouWin:
+    _iD: 14
+    _translation: Zafer
+  Next:
+    _iD: 13
+    _translation: Sonraki
+  Go:
+    _iD: 40
+    _translation: Gitmek!
+  Apply:
+    _iD: 15
+    _translation: Uygulamak
+  Select:
+    _iD: 16
+    _translation: "Se\xE7mek"
+  AbilityDamage:
+    _iD: 17
+    _translation: "Hasar\u0131 Art\u0131r\u0131r"
+  AbilityRevenue:
+    _iD: 18
+    _translation: "Geliri Art\u0131r\u0131r"
+  AbilitySpeed:
+    _iD: 19
+    _translation: "H\u0131z\u0131 Art\u0131r\u0131r"
+  AbilityStack:
+    _iD: 20
+    _translation: "Y\u0131\u011F\u0131n\u0131 Artt\u0131r\u0131r"
+  RewardSpeed:
+    _iD: 21
+    _translation: "H\u0131z"
+  RewardIncome:
+    _iD: 22
+    _translation: Gelir
+  RewardAntCount:
+    _iD: 23
+    _translation: "Kar\u0131ncalar"
+  NotInitialized:
+    _iD: 24
+    _translation: "Yetkili de\u011Filsin"
+  Danger:
+    _iD: 25
+    _translation: 
+  MaxStack:
+    _iD: 26
+    _translation: MAX
+  AuthorizedButton:
+    _iD: 27
+    _translation: Yetkilendirmek
+  StoryLevel1:
+    _iD: 28
+    _translation: "Merhaba! Ben kar\u0131nca kolonisinin kral\u0131y\u0131m.$B\u0131kt\u0131m
+      bu gezegenden.$Bir roket yapal\u0131m ve Mars'\u0131 hadi yakalayal\u0131m!"
+  StoryLevel2:
+    _iD: 29
+    _translation: "Harika yolculuk!$Biz etrafa bakarken, yerel bir sakin rokete giden
+      yolu kapatt\u0131. $Uzayl\u0131 yemek yemedi. Onu besleyelim!"
+  StoryLevel3:
+    _iD: 30
+    _translation: "Marsl\u0131lar\u0131 terk ettik. Gemi bozuldu! $Ama yeni teknolojimiz
+      var. $Hadi bir tabak yapal\u0131m!"
+  StoryLevel4:
+    _iD: 31
+    _translation: "Vay! $Bir su gezegenine indik. Gezegeni inceleyelim. $ Bir gemiye
+      ihtiyac\u0131m\u0131z var!"
+  StoryLevel5:
+    _iD: 32
+    _translation: "Gemimiz batt\u0131! $Daha hafif bir gemiye ihtiyac\u0131m\u0131z
+      var. $Muhtemelen bir lastik oyuncak yap\u0131n."
+  StoryLevel6:
+    _iD: 33
+    _translation: Bu gezegeni iyi inceledik. $Bana bir bardak yap ve devam edelim.
+  StoryLevel7:
+    _iD: 34
+    _translation: "Yeni bir gezegen! Bak!$Birisi bir duvar\u0131n arkas\u0131na saklan\u0131yor.$Bir
+      robot yapal\u0131m ve duvar\u0131 y\u0131kal\u0131m."
+  StoryLevel8:
+    _iD: 35
+    _translation: "Duvar\u0131 k\u0131rar k\u0131rmaz roket havaland\u0131. $Ve aniden
+      gezegende bir kar f\u0131rt\u0131nas\u0131 oldu. Kardan adam yapmak!"
+  StoryLevel9:
+    _iD: 36
+    _translation: "Oh hay\u0131r! Rokette rakipler vard\u0131. $Prensesi yakalad\u0131lar
+      ve bir kafese kilitlediler. $Onu serbest b\u0131rak\u0131n!"
+  StoryLevel10:
+    _iD: 37
+    _translation: "Mars'tay\u0131z. $Gezegende agresif sakinler var. $Bir mekanizma
+      kur, zararl\u0131lar\u0131 yakalar\u0131z."
+  StoryLevel11:
+    _iD: 38
+    _translation: "Bir lav okyanusu bulduk. $En iyi silahlar burada yap\u0131l\u0131r.
+      $Kardan adamdan su al. Bir k\u0131l\u0131ca ihtiyac\u0131m var!"
+  StoryLevel12:
+    _iD: 39
+    _translation: "Asit okyanusu! $Mars teknolojisini test edelim. $Bir mucize yarat\u0131n!"
+  StoryLevel13:
+    _iD: 41
+    _translation: "Ve evde! $Kozmik devrialem sona erdi! $Bir s\u0131cak hava balonu
+      yapal\u0131m ve topraklar\u0131m\u0131z\u0131 test edelim!"
+  AdBlockDetected:
+    _iD: 42
+    _translation: "Reklam$engelleyicinizi kapat\u0131n"
+  Reward:
+    _iD: 43
+    _translation: "HED\u0130YE"
+  YouReceive:
+    _iD: 44
+    _translation: "Alacaks\u0131n\u0131z"
+  See:
+    _iD: 45
+    _translation: "\u0130zlemek"
