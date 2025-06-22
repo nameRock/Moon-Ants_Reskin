@@ -1,0 +1,159 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: ChineseData
+  m_EditorClassIdentifier: 
+  _language: 4
+  _icon: {fileID: 21300000, guid: 68c9d8dac9c154c78a81912758e4fa3d, type: 3}
+  _font: {fileID: 11400000, guid: 337faa563c35fa341bda2839b9a6618d, type: 2}
+  Assistants:
+    _iD: 0
+    _translation: "\u5E6B\u624B"
+  AssistantsStrength:
+    _iD: 1
+    _translation: "\u529B\u91CF"
+  AssistantsSpeed:
+    _iD: 2
+    _translation: "\u901F\u5EA6"
+  AssistantsWorkers:
+    _iD: 3
+    _translation: "\u5DE5\u4EBA"
+  Player:
+    _iD: 4
+    _translation: "\u64AD\u653E\u5668"
+  PlayerUpgrade:
+    _iD: 5
+    _translation: "\u63D0\u5347"
+  PlayerCapacity:
+    _iD: 6
+    _translation: "\u5BB9\u91CF"
+  PlayerSpeed:
+    _iD: 7
+    _translation: "\u901F\u5EA6"
+  PlayerPrice:
+    _iD: 8
+    _translation: "\u5BB9\u91CF"
+  Leaderboard:
+    _iD: 9
+    _translation: 
+  EnemyDanger:
+    _iD: 10
+    _translation: "\u5371\u96AA"
+  Level:
+    _iD: 11
+    _translation: "\u7B49\u7D1A"
+  InviteFrieds:
+    _iD: 12
+    _translation: 
+  YouWin:
+    _iD: 14
+    _translation: "\u52DD\u5229"
+  Next:
+    _iD: 13
+    _translation: "\u66F4\u9060"
+  Go:
+    _iD: 40
+    _translation: "\u53BB"
+  Apply:
+    _iD: 15
+    _translation: "\u5F97\u5230"
+  Select:
+    _iD: 16
+    _translation: "\u9078\u64C7"
+  AbilityDamage:
+    _iD: 17
+    _translation: "\u589E\u52A0\u50B7\u5BB3"
+  AbilityRevenue:
+    _iD: 18
+    _translation: "\u589E\u52A0\u6536\u5165"
+  AbilitySpeed:
+    _iD: 19
+    _translation: "\u63D0\u9AD8\u901F\u5EA6"
+  AbilityStack:
+    _iD: 20
+    _translation: "\u589E\u52A0\u5806\u68E7"
+  RewardSpeed:
+    _iD: 21
+    _translation: "\u901F\u5EA6"
+  RewardIncome:
+    _iD: 22
+    _translation: "\u5BB9\u91CF"
+  RewardAntCount:
+    _iD: 23
+    _translation: "\u879E\u87FB"
+  NotInitialized:
+    _iD: 24
+    _translation: 
+  Danger:
+    _iD: 25
+    _translation: "\u5371\u96AA"
+  MaxStack:
+    _iD: 26
+    _translation: "\u6700\u5927\u9650\u5EA6"
+  AuthorizedButton:
+    _iD: 27
+    _translation: 
+  StoryLevel1:
+    _iD: 28
+    _translation: "\u4F60\u597D!$\u6211\u662F\u87FB\u738B$\u6211\u53AD\u5026\u4E86\u5730\u7403.$\u8B93\u6211\u5011\u5EFA\u9020\u706B\u7BAD\u4E26\u6B96\u6C11\u706B\u661F\uFF01"
+  StoryLevel2:
+    _iD: 29
+    _translation: "\u9177\u98DB\u884C!$\u5728\u6211\u5011\u5EFA\u9020\u57FA\u5730\u6642,$\u4F4D\u7576\u5730\u5C45\u6C11\u64CB\u4F4F\u4E86\u901A\u5F80\u706B\u7BAD\u7684\u9053\u8DEF.$\u4ED6\u53EF\u80FD\u9913\u4E86.
+      \u8B93\u6211\u5011\u9935\u4ED6\uFF01"
+  StoryLevel3:
+    _iD: 30
+    _translation: "\u6211\u5011\u6C92\u80FD\u98DB\u96E2\u98E2\u9913\u7684\u706B\u661F\u4EBA.$\u706B\u7BAD\u58DE\u4E86! 
+      \u4F46\u662F\u73FE\u5728\u6211\u5011\u6709\u4E86-\u9805\u65B0\u6280\u8853$\u8B93\u6211\u5011\u5EFA\u9020-\u500B\u98DB\u789F\u5427\uFF01"
+  StoryLevel4:
+    _iD: 31
+    _translation: "\u54C7! \u964D\u843D\u5728-\u500B\u6C34\u661F\u7403\u4E0A.$\u8B93\u6211\u5011\u63A2\u7D22\u9019\u4E9B\u5CF6\u5DBC.$\u6211\u5011\u9700\u8981-\u8258\u8239\uFF01"
+  StoryLevel5:
+    _iD: 32
+    _translation: "\u6211\u5011\u7684\u8239\u6C89\u4E86! \u4ED6\u592A\u91CD\u4E86.$\u6211\u5011\u9700\u8981\u66F4\u8F15\u7684\u6771\u897F.$\u6211\u60F3\u6A61\u76AE\u9D28\u5C31\u53EF\u4EE5\u4E86."
+  StoryLevel6:
+    _iD: 33
+    _translation: "\u6211\u5011\u5DF2\u7D93\u5F88\u597D\u5730\u63A2\u7D22\u4E86\u9019\u500B\u661F\u7403.$\u7D66\u6211\u9020-\u500B\u676F\u5B50\u7136\u5F8C\u98DB\u5230\u53E6-\u500B\u661F\u7403."
+  StoryLevel7:
+    _iD: 34
+    _translation: "\u65B0\u661F\u7403! \u770B! \u6709\u4EBA\u8EB2\u5728\u63A9\u9AD4\u5F8C\u9762\u7684\u706B\u7BAD\u88E1.$\u8B93\u6211\u5011\u5EFA\u9020-\u500B\u6A5F\u5668\u4EBA\u4E26\u6253\u7834\u7246\u58C1\u4EE5\u4E86\u89E3\u5F7C\u6B64."
+  StoryLevel8:
+    _iD: 35
+    _translation: "\u6211\u5011-\u6253\u7834\u7246\u58C1, \u706B\u7BAD\u5C31\u5347\u7A7A\u4E86.$\u7A81\u7136\u51AC\u5929\u5728\u9019\u500B\u661F\u7403\u4E0A\u958B\u59CB\u4E86.$\u5806\u96EA\u4EBA!"
+  StoryLevel9:
+    _iD: 36
+    _translation: "\u4E0D\u597D\u4E86! \u706B\u7BAD\u88E1\u6709\u7AF6\u722D\u7684\u879E\u87FB.$\u4ED6\u5011\u5077\u8D70\u4E86\u516C\u4E3B,
+      \u628A\u5979\u95DC\u5728\u7C60\u5B50\u88E1.$\u653E\u958B\u5979!"
+  StoryLevel10:
+    _iD: 37
+    _translation: "\u9019\u500B\u661F\u7403\u4E0A\u4F4F\u8457\u5403\u6211\u5011\u4E0B\u5C6C\u7684\u8718\u86DB.$\u6211\u5011\u56DE\u5230\u706B\u661F\u4E86.$\u5EFA\u9020-\u67B6\u98DB\u6A5F\u5F9E\u4E0A\u65B9\u89C0\u5BDF\u5730\u7403."
+  StoryLevel11:
+    _iD: 38
+    _translation: "\u6211\u5011\u767C\u73FE\u4E86-\u500B\u7194\u5CA9\u6E56.$\u9019\u662F\u935B\u9020\u6700\u597D\u7684\u6B66\u5668\u7684\u5730\u65B9.$\u5F9E\u96EA\u4EBA\u8EAB\u4E0A\u53D6\u6C34.
+      \u6211\u9700\u8981-\u628A\u528D!"
+  StoryLevel12:
+    _iD: 39
+    _translation: "\u9178\u6E56!$\u6211\u5011\u4F86\u6E2C\u8A66-\u4E0B\u706B\u661F\u4EBA\u7528\u5BF6\u528D\u63DB\u53D6\u7684\u6280\u8853\u5427.$\u5EFA\u9020-\u4E9B\u6771\u897F!"
+  StoryLevel13:
+    _iD: 41
+    _translation: "\u53C8\u662F\u5730\u7403!$\u6211\u5011\u9032\u884C\u4E86-\u6B21\u74B0\u7403\u592A\u7A7A\u65C5\u884C!$\u8B93\u6211\u5011\u5EFA\u9020-\u500B\u71B1\u6C23\u7403\u4E26\u7E5E\u5730\u7403\u98DB\u884C!"
+  AdBlockDetected:
+    _iD: 42
+    _translation: 
+  Reward:
+    _iD: 43
+    _translation: "\u5831\u916C"
+  YouReceive:
+    _iD: 44
+    _translation: "\u4F60\u6703\u5F97\u5230"
+  See:
+    _iD: 45
+    _translation: "\u770B"

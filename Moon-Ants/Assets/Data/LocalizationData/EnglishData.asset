@@ -1,0 +1,167 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: EnglishData
+  m_EditorClassIdentifier: 
+  _language: 2
+  _icon: {fileID: 21300000, guid: 77a9d892ce0a9494388c3e8e2c94b25e, type: 3}
+  Assistants:
+    _iD: 0
+    _translation: Assistants
+  AssistantsStrength:
+    _iD: 1
+    _translation: Collection
+  AssistantsSpeed:
+    _iD: 2
+    _translation: Speed
+  AssistantsWorkers:
+    _iD: 3
+    _translation: Workers
+  Player:
+    _iD: 4
+    _translation: Player
+  PlayerUpgrade:
+    _iD: 5
+    _translation: Upgrade
+  PlayerCapacity:
+    _iD: 6
+    _translation: Capacity
+  PlayerSpeed:
+    _iD: 7
+    _translation: Speed
+  PlayerPrice:
+    _iD: 8
+    _translation: Price
+  Leaderboard:
+    _iD: 9
+    _translation: Leaderboard
+  EnemyDanger:
+    _iD: 10
+    _translation: Danger
+  Level:
+    _iD: 11
+    _translation: Level
+  InviteFrieds:
+    _iD: 12
+    _translation: Invite Friends
+  YouWin:
+    _iD: 14
+    _translation: You Win
+  Next:
+    _iD: 13
+    _translation: Next
+  Go:
+    _iD: 40
+    _translation: GO!
+  Apply:
+    _iD: 15
+    _translation: Apply
+  Select:
+    _iD: 16
+    _translation: Select
+  AbilityDamage:
+    _iD: 17
+    _translation: Increases Damage
+  AbilityRevenue:
+    _iD: 18
+    _translation: 'Increases Income '
+  AbilitySpeed:
+    _iD: 19
+    _translation: Increases the Speed
+  AbilityStack:
+    _iD: 20
+    _translation: Increases the Stack
+  RewardSpeed:
+    _iD: 21
+    _translation: Speed
+  RewardIncome:
+    _iD: 22
+    _translation: Income
+  RewardAntCount:
+    _iD: 23
+    _translation: Ants
+  NotInitialized:
+    _iD: 24
+    _translation: You are not authorized
+  Danger:
+    _iD: 25
+    _translation: Danger
+  MaxStack:
+    _iD: 26
+    _translation: MAX
+  AuthorizedButton:
+    _iD: 27
+    _translation: Authorize
+  StoryLevel1:
+    _iD: 28
+    _translation: Hello! I am the ant king.$I am tired of Earth.$Let's build a rocket
+      and colonize Mars!
+  StoryLevel2:
+    _iD: 29
+    _translation: Awesome flight!$While we were building the base, a local resident
+      blocked the way to the rocket.$He's probably hungry. Let's feed him!
+  StoryLevel3:
+    _iD: 30
+    _translation: We failed to fly away from the hungry Martians.$The rocket broke!
+      But now we have new technology.$Let's build a flying saucer!
+  StoryLevel4:
+    _iD: 31
+    _translation: Wow! We landed on a water planet.$Let's explore the islands.$We
+      need a ship!
+  StoryLevel5:
+    _iD: 32
+    _translation: Our ship sank! It was too heavy.$We need something lighter.$I think
+      a rubber duck will do.
+  StoryLevel6:
+    _iD: 33
+    _translation: We explored this planet well.$Build me a cup and let's fly to another
+      planet.
+  StoryLevel7:
+    _iD: 34
+    _translation: New planet! Look!$Someone is hiding in the rocket.$Let's build
+      a robot and break down the wall to get to know them.
+  StoryLevel8:
+    _iD: 35
+    _translation: As soon as we broke down the wall, the rocket took off into the
+      air.$And unexpectedly, winter started on the planet.$Build a snowman!
+  StoryLevel9:
+    _iD: 36
+    _translation: Oh no! Competing ants were in the rocket.$They stole the princess
+      and put her in a cage.$Free her!
+  StoryLevel10:
+    _iD: 37
+    _translation: This planet was inhabited with spiders that ate our subordinates.$We
+      returned to Mars.$Build an airplane to survey the planet from above.
+  StoryLevel11:
+    _iD: 38
+    _translation: We found a lava lake.$This is where the best weapons are forged.$You'll
+      get water from the snowman. I need a sword!
+  StoryLevel12:
+    _iD: 39
+    _translation: Acidic lake!$Let's test the technologies that the Martians gave
+      us in exchange for the sword.$Build something!
+  StoryLevel13:
+    _iD: 41
+    _translation: And back to Earth!$We made a space round-the-world journey!$Let's
+      build a hot air balloon and fly around the whole planet!
+  AdBlockDetected:
+    _iD: 42
+    _translation: Turn off$the ad blocker
+  Reward:
+    _iD: 43
+    _translation: REWARD
+  YouReceive:
+    _iD: 44
+    _translation: You will receive
+  See:
+    _iD: 45
+    _translation: See
