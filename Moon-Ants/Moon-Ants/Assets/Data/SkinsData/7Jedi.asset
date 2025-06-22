@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03d0762030eb7a84aa02d2f35a0277a1, type: 3}
+  m_Name: 7Jedi
+  m_EditorClassIdentifier: 
+  _name: Jedi
+  _description: 
+  _price: 100
+  _icon: {fileID: 21300000, guid: 66ce0fe52f8120145b2880282707844a, type: 3}
+  _abilitiesDatas:
+  - {fileID: 11400000, guid: e51297fcda144c64ca6d7a97628e98b0, type: 2}
+  - {fileID: 11400000, guid: 1142c923fc0438e41b4193b2e1970bbd, type: 2}
+  - {fileID: 11400000, guid: 9308de0de0471ae4fadfececfa63a8bc, type: 2}

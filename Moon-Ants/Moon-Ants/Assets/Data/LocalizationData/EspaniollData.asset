@@ -1,0 +1,168 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: EspaniollData
+  m_EditorClassIdentifier: 
+  _language: 7
+  _icon: {fileID: 21300000, guid: 78352d6d5759645c79c90840e34c7b79, type: 3}
+  _font: {fileID: 11400000, guid: 4db3d0c259b3711418b787258e9c77c5, type: 2}
+  Assistants:
+    _iD: 0
+    _translation: Ayudantes
+  AssistantsStrength:
+    _iD: 1
+    _translation: Fuerza
+  AssistantsSpeed:
+    _iD: 2
+    _translation: Velocidad
+  AssistantsWorkers:
+    _iD: 3
+    _translation: Obreros
+  Player:
+    _iD: 4
+    _translation: Jugador
+  PlayerUpgrade:
+    _iD: 5
+    _translation: Mejorar
+  PlayerCapacity:
+    _iD: 6
+    _translation: Capacidad
+  PlayerSpeed:
+    _iD: 7
+    _translation: Velocidad
+  PlayerPrice:
+    _iD: 8
+    _translation: Ingreso
+  Leaderboard:
+    _iD: 9
+    _translation: 
+  EnemyDanger:
+    _iD: 10
+    _translation: Peligro
+  Level:
+    _iD: 11
+    _translation: Nivel
+  InviteFrieds:
+    _iD: 12
+    _translation: 
+  YouWin:
+    _iD: 14
+    _translation: Victoria
+  Next:
+    _iD: 13
+    _translation: Continuar
+  Go:
+    _iD: 40
+    _translation: Ir
+  Apply:
+    _iD: 15
+    _translation: Conseguir
+  Select:
+    _iD: 16
+    _translation: Elegir
+  AbilityDamage:
+    _iD: 17
+    _translation: Aumentar ataque
+  AbilityRevenue:
+    _iD: 18
+    _translation: Incrementa Ingresos
+  AbilitySpeed:
+    _iD: 19
+    _translation: Aumenta la velocidad
+  AbilityStack:
+    _iD: 20
+    _translation: Aumenta la pila
+  RewardSpeed:
+    _iD: 21
+    _translation: Velocidad
+  RewardIncome:
+    _iD: 22
+    _translation: Ingreso
+  RewardAntCount:
+    _iD: 23
+    _translation: Hormigas
+  NotInitialized:
+    _iD: 24
+    _translation: 
+  Danger:
+    _iD: 25
+    _translation: Peligro
+  MaxStack:
+    _iD: 26
+    _translation: Max
+  AuthorizedButton:
+    _iD: 27
+    _translation: 
+  StoryLevel1:
+    _iD: 28
+    _translation: Saludos! Soy el rey de las hormigas.$Estoy cansado de la tierra.$Construyamos
+      un cohete y colonizamos Marte!
+  StoryLevel2:
+    _iD: 29
+    _translation: Oh, debido a un local, no podemos volar.$Tengo que darle de comer
+  StoryLevel3:
+    _iD: 30
+    _translation: No logramos escapar de los hambrientos marcianos.$Pero ahora tenemos
+      nuevos conocimientos.
+  StoryLevel4:
+    _iD: 31
+    _translation: Oh. Aterrizamos en un planeta de agua.$Exploremos las islas.$Construyamos
+      un barco.
+  StoryLevel5:
+    _iD: 32
+    _translation: Nuestro barco se ha hundido.$Necesitamos algo ligero.$Creo que
+      el patito de goma nos queda bien.
+  StoryLevel6:
+    _iD: 33
+    _translation: Hemos explorado bien este planeta.$Crea una copa y vuela a otro
+      planeta.
+  StoryLevel7:
+    _iD: 34
+    _translation: Nuevo planeta.$Mira, alguien se esconde en un cohete.$Construyamos
+      un robot y rompamos el muro para conocernos.
+  StoryLevel8:
+    _iD: 35
+    _translation: Tan pronto como rompimos la pared y tomamos el aire.$Y de repente
+      el invierno ha llegado al planeta.$Nos ciega algo fuera de la nieve.
+  StoryLevel9:
+    _iD: 36
+    _translation: Oh, no. Las hormigas-competidoras viven en el planeta.$Se robaron
+      a la princesa y la pusieron en una jaula.$Tenemos que salvarla.
+  StoryLevel10:
+    _iD: 37
+    _translation: El planeta estaba habitado por enemigos que se comieron a nuestros
+      subordinados.$Estamos de vuelta en Marte.$Construye algo para ver el planeta
+      desde arriba.
+  StoryLevel11:
+    _iD: 38
+    _translation: Encontramos un lago de lava.$Puedes forjar las mejores armas.$Toma
+      agua de la nieve. Necesito una espada.
+  StoryLevel12:
+    _iD: 39
+    _translation: Lago inusual.$Probemos el conocimiento que nos dieron los marcianos
+      a cambio de la espada.$Construye algo.
+  StoryLevel13:
+    _iD: 41
+    _translation: Y de nuevo la Tierra.$Hicimos un viaje espacial alrededor del mundo.$Construyamos
+      un globo y demos la vuelta a todo el planeta.
+  AdBlockDetected:
+    _iD: 42
+    _translation: 
+  Reward:
+    _iD: 43
+    _translation: Premio
+  YouReceive:
+    _iD: 44
+    _translation: Conseguir
+  See:
+    _iD: 45
+    _translation: Mirar

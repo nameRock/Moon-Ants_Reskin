@@ -1,0 +1,170 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62bbb82ad1ff8004aaffad947b80a06c, type: 3}
+  m_Name: GermanicoData
+  m_EditorClassIdentifier: 
+  _language: 5
+  _icon: {fileID: 21300000, guid: bd74de257681043279e4b5473944dc3e, type: 3}
+  _font: {fileID: 11400000, guid: 4db3d0c259b3711418b787258e9c77c5, type: 2}
+  Assistants:
+    _iD: 0
+    _translation: Helfer
+  AssistantsStrength:
+    _iD: 1
+    _translation: Gewalt
+  AssistantsSpeed:
+    _iD: 2
+    _translation: Schnelle
+  AssistantsWorkers:
+    _iD: 3
+    _translation: Helfer
+  Player:
+    _iD: 4
+    _translation: Spieler
+  PlayerUpgrade:
+    _iD: 5
+    _translation: Verbessern
+  PlayerCapacity:
+    _iD: 6
+    _translation: Volumen
+  PlayerSpeed:
+    _iD: 7
+    _translation: Schnelle
+  PlayerPrice:
+    _iD: 8
+    _translation: Einkommen
+  Leaderboard:
+    _iD: 9
+    _translation: 
+  EnemyDanger:
+    _iD: 10
+    _translation: Achtung
+  Level:
+    _iD: 11
+    _translation: Eben
+  InviteFrieds:
+    _iD: 12
+    _translation: 
+  YouWin:
+    _iD: 14
+    _translation: Sieg!
+  Next:
+    _iD: 13
+    _translation: Weiter
+  Go:
+    _iD: 40
+    _translation: Gehen
+  Apply:
+    _iD: 15
+    _translation: Erhalten
+  Select:
+    _iD: 16
+    _translation: Selektieren
+  AbilityDamage:
+    _iD: 17
+    _translation: Kraft steigern
+  AbilityRevenue:
+    _iD: 18
+    _translation: Einkommen steigern
+  AbilitySpeed:
+    _iD: 19
+    _translation: Schnelle steigern
+  AbilityStack:
+    _iD: 20
+    _translation: Stapel steigern
+  RewardSpeed:
+    _iD: 21
+    _translation: Schnelle
+  RewardIncome:
+    _iD: 22
+    _translation: Einkommen
+  RewardAntCount:
+    _iD: 23
+    _translation: Ameisen
+  NotInitialized:
+    _iD: 24
+    _translation: 
+  Danger:
+    _iD: 25
+    _translation: Achtung
+  MaxStack:
+    _iD: 26
+    _translation: Max
+  AuthorizedButton:
+    _iD: 27
+    _translation: 
+  StoryLevel1:
+    _iD: 28
+    _translation: Hallo! Ich vertrete Ameisen.$Es ist Zeit, die Erde zu verlassen.$Lasst
+      uns eine Rakete bauen und den Mars kolonisieren!
+  StoryLevel2:
+    _iD: 29
+    _translation: Cooler Flug!$Wir bauten eine Basis, und ein Anwohner blockierte
+      den Weg zur Rakete.$Wahrscheinlich hat er Hunger. Helfen wir ihm.
+  StoryLevel3:
+    _iD: 30
+    _translation: Wir haben es nicht geschafft, vor den hungrigen Marsmenschen davonfliegen.$Die
+      Rakete ist kaputt! Aber jetzt haben wir eine neue Technologie.$Lasst uns eine
+      fliegende Untertasse bauen!
+  StoryLevel4:
+    _iD: 31
+    _translation: Wow! Auf einem Wasserplaneten gelandet.$Lassen Sie uns die Inseln
+      erkunden.$Wir brauchen ein Schiff!
+  StoryLevel5:
+    _iD: 32
+    _translation: Unser Schiff ist gesunken! Er war zu schwer.$Wir brauchen etwas
+      Leichteres.$Ich denke, eine Gummiente wird es tun.
+  StoryLevel6:
+    _iD: 33
+    _translation: Wir haben diesen Planeten gut erforscht.$Bau mir eine Tasse und
+      flieg zu einem anderen Planeten.
+  StoryLevel7:
+    _iD: 34
+    _translation: Neuer Planet! Sehen!$Jemand versteckt sich hinter einer Deckung
+      in einer Rakete.$Lass uns einen Roboter bauen und die Wand entfernen, um uns
+      kennenzulernen.
+  StoryLevel8:
+    _iD: 35
+    _translation: Sobald wir die Mauer durchbrochen hatten, hob die Rakete ab.$Und
+      der Winter hat auf dem Planeten begonnen.$Einen Schneemann bauen!
+  StoryLevel9:
+    _iD: 36
+    _translation: Oh nein! Es gab konkurrierende Ameisen in der Rakete.$Sie stahlen
+      die Prinzessin und steckten sie hinter Schloss und Riegel.$Sie freilassen!
+  StoryLevel10:
+    _iD: 37
+    _translation: Spinnen lebten auf dem Planeten, sie mischen sich hier ein. Wir
+      sind auf dem Mars.$Baue ein Flugzeug, um den Planeten von oben zu sehen.
+  StoryLevel11:
+    _iD: 38
+    _translation: Wir haben einen Lavasee gefunden.$Hier werden die besten Waffen
+      geschmiedet.$Nimm Wasser vom Schneemann. Ich brauche ein Schwert!
+  StoryLevel12:
+    _iD: 39
+    _translation: Saurer See!$Wir testen die Technologie, die wir mit den Marsmenschen
+      gegen das Schwert eingetauscht haben.$Etwas bauen!
+  StoryLevel13:
+    _iD: 41
+    _translation: Und wieder die Erde!$Wir haben eine Weltraumreise um die Welt gemacht!$Lass
+      uns einen Ballon bauen und den ganzen Planeten umrunden!
+  AdBlockDetected:
+    _iD: 42
+    _translation: 
+  Reward:
+    _iD: 43
+    _translation: Belohnen
+  YouReceive:
+    _iD: 44
+    _translation: Du wirst kriegen
+  See:
+    _iD: 45
+    _translation: Suchen

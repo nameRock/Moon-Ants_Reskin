@@ -1,0 +1,686 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1679408283934624, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408283935849, "dur": 121224, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408284057220, "dur": 53314, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408284110565, "dur": 424920, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408284535487, "dur": 125994, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408284661510, "dur": 12822, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408322885722, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408322885967, "dur": 3337, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408322889305, "dur": 49273, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408322938580, "dur": 200738, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408323139320, "dur": 79591, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408323218912, "dur": 15108, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408323234329, "dur": 31, "ph": "X", "name": "", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679408322913521, "dur":704, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322914234, "dur":167, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679408322914444, "dur":30, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679408322914476, "dur":524, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679408322915030, "dur":627, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322915657, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322915960, "dur":69, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916029, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916054, "dur":82, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916136, "dur":16, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916152, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916154, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916160, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916162, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916168, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916169, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916175, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916176, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916182, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916184, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916190, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916192, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916197, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916199, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916205, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916207, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916212, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916213, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916219, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916221, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916228, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916228, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322916245, "dur":997, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679408322915820, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408322915820, "dur":143, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408322915113, "dur":574, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408322915687, "dur":372, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408322915411, "dur":293, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408322915704, "dur":323, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408322914985, "dur":685, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408322915670, "dur":294, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408322915270, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408322915695, "dur":354, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408322915497, "dur":216, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408322915713, "dur":324, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408322915542, "dur":180, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408322915722, "dur":240, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408322915587, "dur":174, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408322915761, "dur":252, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408322915632, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408322915771, "dur":200, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408322915667, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408322915668, "dur":285, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408322915070, "dur":607, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408322915678, "dur":393, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408322915809, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408322915809, "dur":274, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408322918141, "dur":262, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679408323234412, "dur": 225, "ph": "X", "name": "backend_profiler0.traceevents", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1679408323021102, "dur": 102156, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323022108, "dur": 44006, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323108727, "dur": 3128, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323111857, "dur": 11395, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323112529, "dur": 9491, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323127425, "dur": 1238, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1679408323126721, "dur": 1963, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408323234683, "dur": 110, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1679408323174209, "dur":737, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323174952, "dur":150, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1679408323175137, "dur":29, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1679408323175168, "dur":519, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1679408323175728, "dur":625, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323176353, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206289, "dur":173, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206462, "dur":133, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206595, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206599, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206610, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206612, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206622, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206624, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206632, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206635, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206643, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206646, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206655, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206658, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206666, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206668, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206673, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206675, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206682, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206684, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206691, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206693, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206701, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206704, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206713, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206729, "dur":2, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323206753, "dur":1275, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1679408323175688, "dur":712, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323176401, "dur":1579, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323177987, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178064, "dur":425, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178490, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178561, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178613, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178631, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178688, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178702, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178726, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178743, "dur":226, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178969, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323178987, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179009, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179019, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179044, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179141, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179169, "dur":109, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179278, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179311, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179332, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179379, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Mono.Data.Sqlite.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179395, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179507, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.WebUtility.Samples.Playtesting.dll" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179613, "dur":36, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179649, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679408323179665, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323180430, "dur":959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets8.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679408323181402, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1679408323181417, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323181421, "dur":907, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets3.resource" }}
+,{ "pid":12345, "tid":1, "ts":1679408323182341, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.resource" }}
+,{ "pid":12345, "tid":1, "ts":1679408323182357, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323182360, "dur":628, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.resource" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183001, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183017, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183020, "dur":705, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets12.assets" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183735, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183748, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1679408323183751, "dur":19185, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1679408323202947, "dur":3340, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323175993, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323176418, "dur":1591, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178010, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178097, "dur":348, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178446, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178472, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178564, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178599, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178635, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178651, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178676, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178700, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178722, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178735, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178880, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323178893, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179001, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179017, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179057, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.Cecil.Rocks.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179086, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179098, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179195, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179222, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179234, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179261, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179274, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179348, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/RFLib_DotNet_2018.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179361, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179388, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/GameAnalytics.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179406, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179436, "dur":259, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179695, "dur":66, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179763, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179780, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323179812, "dur":1501, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679408323181324, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323181339, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323181343, "dur":709, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323182064, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323182078, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323182082, "dur":1324, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.assets.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323183419, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679408323183433, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323183437, "dur":1244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets11.assets" }}
+,{ "pid":12345, "tid":2, "ts":1679408323184696, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1679408323184783, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323184822, "dur":660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":2, "ts":1679408323185482, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323185514, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level9.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323185534, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323185538, "dur":722, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level9.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323186477, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323186501, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323186505, "dur":981, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level8.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323187504, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1679408323187522, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323187526, "dur":8299, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level7" }}
+,{ "pid":12345, "tid":2, "ts":1679408323195847, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1679408323195865, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323195869, "dur":2021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level3" }}
+,{ "pid":12345, "tid":2, "ts":1679408323197907, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level13.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323197927, "dur":163, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323198096, "dur":1639, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level13.resS" }}
+,{ "pid":12345, "tid":2, "ts":1679408323199784, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level11" }}
+,{ "pid":12345, "tid":2, "ts":1679408323199805, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1679408323199809, "dur":3036, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level11" }}
+,{ "pid":12345, "tid":2, "ts":1679408323202858, "dur":3412, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323175749, "dur":661, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323176410, "dur":1601, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178012, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178073, "dur":181, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178255, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178275, "dur":287, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178563, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178591, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178626, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178640, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178665, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178696, "dur":42, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178739, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178753, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178787, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178801, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178853, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323178880, "dur":157, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323179038, "dur":606, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1679408323179644, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323179699, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":3, "ts":1679408323179718, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1679408323205648, "dur":487, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.resource" }}
+,{ "pid":12345, "tid":3, "ts":1679408323206159, "dur":132, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323176837, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323176838, "dur":1149, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323177991, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178057, "dur":261, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178319, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178342, "dur":220, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178562, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178593, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178625, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178645, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178672, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178684, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178707, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178719, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178745, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178758, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178784, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178803, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178828, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178837, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178863, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178873, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323178894, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179000, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179028, "dur":160, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179188, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179215, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179227, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179255, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179279, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179312, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179332, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179371, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/NavMeshComponents.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179460, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179542, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.VKGames.Samples.Playtesting.dll" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179620, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179653, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1679408323179671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323198767, "dur":1334, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.resource" }}
+,{ "pid":12345, "tid":4, "ts":1679408323200112, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1679408323200161, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1679408323200166, "dur":2661, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level10" }}
+,{ "pid":12345, "tid":4, "ts":1679408323202838, "dur":3459, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323176136, "dur":313, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323176449, "dur":1588, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178038, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178093, "dur":191, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178285, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178308, "dur":128, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178437, "dur":483, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants.exe" }}
+,{ "pid":12345, "tid":5, "ts":1679408323178921, "dur":113, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179035, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Recorder.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179167, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179197, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179218, "dur":49, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179269, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179283, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179310, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179325, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179359, "dur":261, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/RayFireAssembly.dll" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179621, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179654, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679408323179671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323198409, "dur":1608, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679408323200043, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679408323200059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323200063, "dur":1996, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level10.resS" }}
+,{ "pid":12345, "tid":5, "ts":1679408323202070, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679408323202087, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1679408323202092, "dur":763, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1679408323202866, "dur":3426, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323176211, "dur":250, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323176461, "dur":1547, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178013, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178086, "dur":253, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178340, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178359, "dur":198, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178558, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178582, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178609, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178626, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178655, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178680, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178727, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323178744, "dur":263, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179008, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179023, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179055, "dur":295, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179350, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179433, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Autodesk.Fbx.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179557, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179589, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Plugins/x86_64/RFLib_CNative_2018.dll" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179607, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179635, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323179663, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323180228, "dur":1177, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets9.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323181417, "dur":24, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323181445, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323181450, "dur":1116, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets3.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323182577, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323182591, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323182595, "dur":986, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323183596, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":6, "ts":1679408323183612, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323183616, "dur":632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets10.resource" }}
+,{ "pid":12345, "tid":6, "ts":1679408323184258, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323184282, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323184286, "dur":762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323185067, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323185083, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323185087, "dur":2348, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/resources.assets" }}
+,{ "pid":12345, "tid":6, "ts":1679408323187454, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level7.resS" }}
+,{ "pid":12345, "tid":6, "ts":1679408323187589, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323187595, "dur":690, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level7.resS" }}
+,{ "pid":12345, "tid":6, "ts":1679408323188300, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1679408323188321, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323188326, "dur":9833, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level6" }}
+,{ "pid":12345, "tid":6, "ts":1679408323198173, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level13" }}
+,{ "pid":12345, "tid":6, "ts":1679408323198213, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323198217, "dur":2727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level13" }}
+,{ "pid":12345, "tid":6, "ts":1679408323200955, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1679408323200974, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323200978, "dur":1552, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level0" }}
+,{ "pid":12345, "tid":6, "ts":1679408323202555, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1679408323202643, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1679408323202846, "dur":3427, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323176362, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323176362, "dur":1613, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323177986, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1679408323177989, "dur":32, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178024, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/app.info" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178025, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178108, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178128, "dur":270, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178399, "dur":170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178569, "dur":61, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178631, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178646, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178675, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178717, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178775, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178786, "dur":15, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178801, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178809, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178827, "dur":8, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178835, "dur":41, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178877, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323178891, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179037, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Recorder.Base.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179149, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179175, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.Animation.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179249, "dur":39, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179289, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179301, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179325, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179335, "dur":40, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179376, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179389, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179425, "dur":273, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Cinemachine.dll" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179699, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179726, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679408323179742, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1679408323205798, "dur":430, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets6.assets.resS" }}
+,{ "pid":12345, "tid":7, "ts":1679408323206237, "dur":0, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":7, "ts":1679408323206238, "dur":0, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323176475, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323176476, "dur":1548, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178029, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178089, "dur":272, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178362, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178389, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178540, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178565, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178629, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178650, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178680, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178715, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178750, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178764, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178786, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178796, "dur":17, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178814, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178826, "dur":43, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178869, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178884, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178979, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323178992, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179014, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179025, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179047, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179059, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179092, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.Cecil.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179104, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179129, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179214, "dur":35, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179250, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179265, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179292, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179304, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179329, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179340, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179364, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179376, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179399, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/FbxBuildTestAssets.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179496, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179521, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.WebUtility.dll" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179614, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179648, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323179665, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323180612, "dur":521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets8.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181144, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181158, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181172, "dur":691, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181875, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181888, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323181892, "dur":849, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323182753, "dur":25, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323182783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323182787, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets12.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323183639, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323183658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323183663, "dur":1254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":8, "ts":1679408323184929, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679408323184946, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323184950, "dur":1685, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1679408323186649, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1679408323186673, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323186676, "dur":2614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level8" }}
+,{ "pid":12345, "tid":8, "ts":1679408323189303, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1679408323189318, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323189321, "dur":8180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level5" }}
+,{ "pid":12345, "tid":8, "ts":1679408323197513, "dur":9, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1679408323197526, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323197529, "dur":3392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level2" }}
+,{ "pid":12345, "tid":8, "ts":1679408323200935, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1679408323200958, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1679408323200962, "dur":1829, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level1" }}
+,{ "pid":12345, "tid":8, "ts":1679408323202802, "dur":3469, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323176601, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323176602, "dur":1410, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178012, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178075, "dur":192, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178268, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178310, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178394, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178483, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178547, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178569, "dur":83, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178653, "dur":21, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178674, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178704, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178716, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178746, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178758, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178779, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178791, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178813, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178828, "dur":46, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178875, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323178889, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179034, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179402, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179450, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Assembly-CSharp-firstpass.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179550, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179576, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Plugins/x86_64/sqlite3.dll" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179590, "dur":12, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179602, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323179808, "dur":983, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets9.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323180803, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":9, "ts":1679408323180820, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323180824, "dur":469, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets5.resource" }}
+,{ "pid":12345, "tid":9, "ts":1679408323181338, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1679408323181354, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323181358, "dur":1165, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets4.assets" }}
+,{ "pid":12345, "tid":9, "ts":1679408323182537, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323182574, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323182578, "dur":738, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets13.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323183328, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets11.resource" }}
+,{ "pid":12345, "tid":9, "ts":1679408323183342, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323183347, "dur":737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets11.resource" }}
+,{ "pid":12345, "tid":9, "ts":1679408323184100, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1679408323184119, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323184123, "dur":11632, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":9, "ts":1679408323195777, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level3.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323195822, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323195833, "dur":1496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level3.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323197350, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323197370, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323197376, "dur":1434, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level2.resS" }}
+,{ "pid":12345, "tid":9, "ts":1679408323198824, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level12" }}
+,{ "pid":12345, "tid":9, "ts":1679408323198842, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323198846, "dur":3539, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level12" }}
+,{ "pid":12345, "tid":9, "ts":1679408323202399, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1679408323202416, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1679408323202419, "dur":599, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":9, "ts":1679408323203027, "dur":3266, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323176642, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323176642, "dur":1368, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178011, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178118, "dur":438, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178556, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178591, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178630, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178644, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178672, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178687, "dur":38, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178726, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323178741, "dur":260, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179002, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179015, "dur":30, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179046, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Formats.Fbx.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179134, "dur":29, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179164, "dur":83, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179247, "dur":47, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179294, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179309, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179343, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/SimpleInspectorAttributes.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179433, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179497, "dur":77, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.YandexGames.dll" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179574, "dur":27, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179602, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179629, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323179985, "dur":1056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":10, "ts":1679408323181054, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323181069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323181073, "dur":1120, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets5.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323182206, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323182221, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323182225, "dur":1367, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets2.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323183627, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323183648, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323183651, "dur":1971, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets10.assets" }}
+,{ "pid":12345, "tid":10, "ts":1679408323185636, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level9" }}
+,{ "pid":12345, "tid":10, "ts":1679408323185652, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323185656, "dur":2563, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level9" }}
+,{ "pid":12345, "tid":10, "ts":1679408323188237, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level6.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323188254, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323188259, "dur":710, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level6.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323188991, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level5.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323189010, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323189014, "dur":767, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level5.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323189793, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323189810, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323189813, "dur":755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level4.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323190582, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level4" }}
+,{ "pid":12345, "tid":10, "ts":1679408323190599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323190602, "dur":7634, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level4" }}
+,{ "pid":12345, "tid":10, "ts":1679408323198251, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level12.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323198266, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323198271, "dur":1126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level12.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323199410, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level11.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323199543, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323199547, "dur":1270, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level11.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323200831, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323200849, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323200854, "dur":1109, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/level1.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323201982, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323202009, "dur":6, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1679408323202027, "dur":1167, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/globalgamemanagers.assets.resS" }}
+,{ "pid":12345, "tid":10, "ts":1679408323203215, "dur":3057, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323176717, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323176718, "dur":1272, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323177991, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178045, "dur":389, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178435, "dur":27, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178462, "dur":8, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178470, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Utilities.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178537, "dur":72, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178610, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178630, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178658, "dur":247, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323178905, "dur":165, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179073, "dur":172, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.Cecil.Mdb.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179245, "dur":10, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179256, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179274, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179296, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179309, "dur":28, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179338, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/SimpleScrollSnap.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179425, "dur":34, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179460, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.YandexMetrica.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179530, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179555, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.VKGames.dll" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179642, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179667, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":11, "ts":1679408323179683, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1679408323199027, "dur":4745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/sharedassets7.assets" }}
+,{ "pid":12345, "tid":11, "ts":1679408323203784, "dur":2513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323176791, "dur":1, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323176792, "dur":1206, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178003, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178037, "dur":196, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178234, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178268, "dur":280, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178549, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178571, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178628, "dur":17, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178645, "dur":31, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178677, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178689, "dur":22, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178712, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178723, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178810, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178824, "dur":16, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178841, "dur":7, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178848, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178868, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323178880, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179017, "dur":16, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179033, "dur":37, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179070, "dur":29, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.Burst.Cecil.Pdb.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179099, "dur":25, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179124, "dur":152, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179276, "dur":21, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179297, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179310, "dur":26, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179336, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179349, "dur":23, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179372, "dur":14, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179386, "dur":33, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179419, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/DOTween.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179439, "dur":20, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179470, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Managed/Agava.YandexGames.Samples.Playtesting.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179543, "dur":24, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323179567, "dur":22939, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323202522, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1679408323202619, "dur":745, "ph":"X", "name": "CopyFiles",  "args": { "detail":"D:/_BUILD DELETE/Moon-Ants/Moon Ants_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":12, "ts":1679408323203377, "dur":2909, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1679408323208951, "dur":1675, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1679408323234832, "dur": 647, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1679408323234302, "dur": 1198, "ph": "X", "name": "Write chrome-trace events", "args": {} },
