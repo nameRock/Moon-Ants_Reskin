@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.440043, g: 0.4884357, b: 0.5689266, a: 1}
+  m_IndirectSpecularColor: {r: 0.4425417, g: 0.49163264, b: 0.5714675, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -3283,6 +3283,14 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 461758905363034328, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1929877761}
+    - target: {fileID: 461758905363034332, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1929877761}
     - target: {fileID: 461758906708238737, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
       propertyPath: m_LocalPosition.x
       value: 10.78
@@ -3371,6 +3379,14 @@ PrefabInstance:
       propertyPath: m_ReceiveShadows
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1398439384829662333, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+      propertyPath: _animator
+      value: 
+      objectReference: {fileID: 1929877761}
+    - target: {fileID: 1398439384829662333, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+      propertyPath: _boneStack
+      value: 
+      objectReference: {fileID: 1929877757}
     - target: {fileID: 1473072236539345241, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
       propertyPath: m_CastShadows
       value: 0
@@ -37782,6 +37798,16 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 3572639884681059923, guid: bf1b031f19b17c442a26d625b7895d4d, type: 3}
   m_PrefabInstance: {fileID: 2093071600}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1929877757 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3841248629944625072, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+  m_PrefabInstance: {fileID: 184296109}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &1929877761 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 7558490700845918064, guid: 99918180cabcf2943ae800bab0081cf5, type: 3}
+  m_PrefabInstance: {fileID: 184296109}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1930191685
 PrefabInstance:

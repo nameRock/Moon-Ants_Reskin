@@ -57,6 +57,8 @@ public class PlayerCollector : MonoBehaviour
         _startStackLenght = _lengthStack;
         _elements = new List<Element>();
         _startPoint = _collectPoint.transform.localPosition;
+
+        _animator = GetComponentInChildren<Animator>();
 #if UNITY_EDITOR
         Debug.Log("Stack");
         _lengthStack = 30;

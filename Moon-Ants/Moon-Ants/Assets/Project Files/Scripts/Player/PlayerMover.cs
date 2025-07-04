@@ -35,8 +35,9 @@ public class PlayerMover : MonoBehaviour
         _rigidbody = GetComponent<Rigidbody>();
         _capsuleCollider = GetComponent<CapsuleCollider>();
         _camera = Camera.main;
+        _animator = GetComponentInChildren<Animator>();
     }
-   
+
     private void FixedUpdate()
     {
         if (_isRun == false)
