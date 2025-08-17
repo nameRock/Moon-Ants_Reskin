@@ -388,6 +388,7 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/Utilities.ref.dll"
 -r:"Library/Bee/artifacts/1900b0aE.dag/UtilitiesEditor.ref.dll"
+"Assets/Blink/Art/Animals/Stylized/Demo_Animals/DemoData/AnimationDemo.cs"
 "Assets/CrazySDK/CrazyAds/CrazyAdsDemo/DemoAssets/CrazyAdsDemoPlayer.cs"
 "Assets/CrazySDK/CrazyAds/CrazyBannersDemo/DemoAssets/CrazyBannerDemoController.cs"
 "Assets/CrazySDK/CrazyAds/Scripts/CrazyAds.cs"
