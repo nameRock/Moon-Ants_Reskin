@@ -838,6 +838,7 @@ PlayerSettings:
   webGLDecompressionFallback: 1
   scriptingDefineSymbols:
     Android: APP_METRICA_TRACK_LOCATION_DISABLED
+    Standalone: YANDEX_GAMES
     WebGL: GAME_DISTRIBUTION
   additionalCompilerArguments: {}
   platformArchitecture: {}
@@ -860,8 +861,8 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Template_3D
-  metroPackageVersion: 
+  metroPackageName: Template3D
+  metroPackageVersion: 1.0.0.0
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
@@ -869,7 +870,7 @@ PlayerSettings:
   metroCertificateNotAfter: 0000000000000000
   metroApplicationDescription: Template_3D
   wsaImages: {}
-  metroTileShortName: 
+  metroTileShortName: Moon Ants
   metroTileShowName: 0
   metroMediumTileShowName: 0
   metroLargeTileShowName: 0
