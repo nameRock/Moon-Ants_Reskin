@@ -44,7 +44,7 @@ MonoBehaviour:
     _translation: Reddito
   Leaderboard:
     _iD: 9
-    _translation: 
+    _translation: leader
   EnemyDanger:
     _iD: 10
     _translation: Pericolo
@@ -104,8 +104,9 @@ MonoBehaviour:
     _translation: 
   StoryLevel1:
     _iD: 28
-    _translation: Ciao! Io sono il re delle formiche.$Sono stanco della terra.$Costruiamo
-      un razzo e colonizziamo Marte!
+    _translation: "Ciao! Sono il re degli orsi.$Sono stanco della Terra e dei freddi
+      inverni.$Cos\xEC ho deciso di costruire un'astronave e volare verso un pianeta
+      caldo!$Puoi aiutarmi?"
   StoryLevel2:
     _iD: 29
     _translation: Buon volo!$Mentre stavamo costruendo la base, un residente locale

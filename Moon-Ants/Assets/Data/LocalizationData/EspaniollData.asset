@@ -44,7 +44,7 @@ MonoBehaviour:
     _translation: Ingreso
   Leaderboard:
     _iD: 9
-    _translation: 
+    _translation: "L\xEDderes"
   EnemyDanger:
     _iD: 10
     _translation: Peligro
@@ -104,8 +104,9 @@ MonoBehaviour:
     _translation: 
   StoryLevel1:
     _iD: 28
-    _translation: Saludos! Soy el rey de las hormigas.$Estoy cansado de la tierra.$Construyamos
-      un cohete y colonizamos Marte!
+    _translation: "\xA1Hola! Soy el rey de los osos. Estoy cansado de la Tierra y
+      de los inviernos fr\xEDos. \xA1As\xED que decid\xED construir una nave espacial
+      y volar a un planeta c\xE1lido! \xBFPuedes ayudarme?"
   StoryLevel2:
     _iD: 29
     _translation: Oh, debido a un local, no podemos volar.$Tengo que darle de comer

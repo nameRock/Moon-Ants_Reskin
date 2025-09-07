@@ -44,7 +44,7 @@ MonoBehaviour:
     _translation: Revenu
   Leaderboard:
     _iD: 9
-    _translation: 
+    _translation: Dirigeants
   EnemyDanger:
     _iD: 10
     _translation: Danger
@@ -104,8 +104,9 @@ MonoBehaviour:
     _translation: 
   StoryLevel1:
     _iD: 28
-    _translation: Bonjour! Je suis le roi des fourmis.$Il est temps de quitter la
-      Terre.$Construisons un vaisseau et colonisons Mars!
+    _translation: "Bonjour ! Je suis le roi des ours. J'en ai assez de la Terre et
+      des hivers froids. J'ai donc d\xE9cid\xE9 de construire un vaisseau spatial
+      et de voler vers une plan\xE8te chaude ! Pouvez-vous m'aider ?"
   StoryLevel2:
     _iD: 29
     _translation: Cool vol!$Pendant que nous construisions la base, un habitant local

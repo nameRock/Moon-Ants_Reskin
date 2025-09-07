@@ -44,7 +44,7 @@ MonoBehaviour:
     _translation: Einkommen
   Leaderboard:
     _iD: 9
-    _translation: 
+    _translation: "F\xFChrungskr\xE4fte"
   EnemyDanger:
     _iD: 10
     _translation: Achtung
@@ -104,8 +104,9 @@ MonoBehaviour:
     _translation: 
   StoryLevel1:
     _iD: 28
-    _translation: Hallo! Ich vertrete Ameisen.$Es ist Zeit, die Erde zu verlassen.$Lasst
-      uns eine Rakete bauen und den Mars kolonisieren!
+    _translation: "Hallo! Ich bin der K\xF6nig der B\xE4ren.$Ich habe die Erde und
+      die kalten Winter satt.$Also habe ich beschlossen, ein Raumschiff zu bauen
+      und zu einem warmen Planeten zu fliegen!$Kannst du helfen?"
   StoryLevel2:
     _iD: 29
     _translation: Cooler Flug!$Wir bauten eine Basis, und ein Anwohner blockierte

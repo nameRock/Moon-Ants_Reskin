@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _language: 2
   _icon: {fileID: 21300000, guid: 77a9d892ce0a9494388c3e8e2c94b25e, type: 3}
+  _font: {fileID: 0}
   Assistants:
     _iD: 0
     _translation: Assistants
@@ -103,8 +104,9 @@ MonoBehaviour:
     _translation: Authorize
   StoryLevel1:
     _iD: 28
-    _translation: Hello! I am the ant king.$I am tired of Earth.$Let's build a rocket
-      and colonize Mars!
+    _translation: Hello! I'm the king of the bears.$I'm tired of the earth and cold
+      winters.$So I decided to build a spaceship and fly to a warm planet!$Can you
+      help?
   StoryLevel2:
     _iD: 29
     _translation: Awesome flight!$While we were building the base, a local resident

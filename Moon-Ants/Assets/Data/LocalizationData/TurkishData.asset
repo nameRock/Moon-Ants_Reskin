@@ -14,6 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _language: 3
   _icon: {fileID: 21300000, guid: f96ed64c1140a44688663b65a678910a, type: 3}
+  _font: {fileID: 0}
   Assistants:
     _iD: 0
     _translation: "Yard\u0131mc\u0131lar"
@@ -103,8 +104,10 @@ MonoBehaviour:
     _translation: Yetkilendirmek
   StoryLevel1:
     _iD: 28
-    _translation: "Merhaba! Ben kar\u0131nca kolonisinin kral\u0131y\u0131m.$B\u0131kt\u0131m
-      bu gezegenden.$Bir roket yapal\u0131m ve Mars'\u0131 hadi yakalayal\u0131m!"
+    _translation: "Merhaba! Ben ay\u0131lar\u0131n kral\u0131y\u0131m.$D\xFCnyadan
+      ve so\u011Fuk k\u0131\u015Flardan b\u0131kt\u0131m.$Bu y\xFCzden bir uzay gemisi
+      in\u015Fa edip s\u0131cak bir gezegene u\xE7maya karar verdim!$Yard\u0131mc\u0131
+      olabilir misin?"
   StoryLevel2:
     _iD: 29
     _translation: "Harika yolculuk!$Biz etrafa bakarken, yerel bir sakin rokete giden
